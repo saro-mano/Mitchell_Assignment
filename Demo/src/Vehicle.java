@@ -4,6 +4,7 @@ public class Vehicle {
     private int year;
     private String make;
 
+    //Vehicle Constructor
     public Vehicle(String model, int id, int year, String make) throws Exception {
         this.id = id;
         if(year >= 1950 && year <= 2050){
@@ -26,10 +27,12 @@ public class Vehicle {
         }
     }
 
+    //Constructor with only ID
     public Vehicle(int id) {
         this.id = id;
     }
 
+    /*Getter*/
     public int getId() {
         return id;
     }
@@ -42,6 +45,8 @@ public class Vehicle {
     public String getModel() {
         return model;
     }
+
+    /*Setter*/
     public void setId(int id) {
         this.id = id;
     }

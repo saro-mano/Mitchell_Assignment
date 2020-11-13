@@ -26,7 +26,6 @@ public class MainClass {
                 String make = sc.next();
                 System.out.println("Please enter the year of the vehicle");
                 int year = sc.nextInt();
-//                obj.create("Corolla", 1, 2010, "Toyato");
                 obj.create(model,id = id+1, year,make);
             }
             if(input == 2){
